@@ -73,7 +73,7 @@ describe("validateScore", () => {
     expect(result.grade).toBe("C");
   });
 
-  // Additional tests to cover grade assignment
+  
   it("should assign grade A for score 95", () => {
     const result = validateScore(95);
     expect(result.grade).toBe("A");
